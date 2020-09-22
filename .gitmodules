@@ -1,0 +1,3 @@
+[submodule "parser_mirea"]
+	path = parser_mirea
+	url = https://github.com/YaSlavar/parser_mirea
