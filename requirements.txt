@@ -1,0 +1,8 @@
+xlrd~=1.2.0
+openpyxl~=3.0.5
+requests~=2.25.0
+beautifulsoup4~=4.9.3
+schedule~=1.0.0
+uvicorn~=0.13.3
+fastapi~=0.63.0
+peewee~=3.14.1
