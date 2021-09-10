@@ -99,7 +99,7 @@ def groups_get(classroom: str = 'Г-310', date: str = '23.02.2021') -> Response:
 
 
 if __name__ == "__main__":
-    my_thread = ScheduleUpdater(update_time_list=['01:00', '16:00', '19:52'])
+    my_thread = ScheduleUpdater(update_time_list=['01:00', '16:00', '21:00'])
     my_thread.start()
 
     uvicorn.run("main:api", host="127.0.0.1", port=5000, log_level="debug")
